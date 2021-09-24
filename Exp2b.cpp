@@ -5,7 +5,7 @@
 int main(){
 	FILE *fp;
 	char str[MAXCHAR];
-	char* filename = "c://Users/HP58/Desktop/Programlar/C/Dersler/emp.txt";
+	char* filename = "c://your-destination-for-txt-file";
 	
 	fp=fopen(filename,"r");
 	if(fp==NULL){
